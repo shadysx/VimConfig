@@ -10,5 +10,10 @@ syntax on
 :set number relativenumber
 :set nu rnu
 
+
+" enable mid screen view when ctrl d or ctrl u
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+
 inoremap kj <esc>
 
